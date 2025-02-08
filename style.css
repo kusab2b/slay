@@ -1,0 +1,681 @@
+﻿*{
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: monserat;
+    src: url(Montserrat-Regular.ttf);
+}
+.container-fluid{
+    background-image: url(pic/unsplash_SfDofjXtxHE.png);
+    background-repeat: none;
+    
+}
+.navbar-dark{
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+.navbrand{
+font-size: 32px;
+font-family: monserat;
+
+}
+.link1{
+    font-size: 24px;
+    font-family: monserat;
+    color: #ffffff;
+}
+.link2{
+    font-size: 24px;
+    font-family: monserat;
+}
+.line{
+     width: 100px;
+    border: 2px solid #17C2EC;
+   
+}
+.line1{
+    width: 10px;
+    height: 10px;
+    border-radius: 20px;
+    background-color: #17C2EC;
+    margin-left: 17px;
+    
+}
+.btn{
+    width: 200px;
+    font-size: 24px;
+    border-radius: 20px;
+    margin-left: 100px;
+    background-color: #C4C4C41A;
+    font-family: monserat;
+    color: #17C2EC;
+}
+.global{
+    display: flex;
+    margin-left: 30px;
+    margin-top: 100px;
+}
+.group4{
+    width: 570px;
+}
+.immune{
+    font-size: 24px;
+    font-family: monserat;
+    color: #17C2EC;
+}
+.covid{
+    font-size: 48px;
+    margin-top: 30px;
+    font-family: monserat;
+    color: #ffffff;
+}
+.vaccination{
+    font-size: 24px;
+    margin-top: 40px;
+    font-family: monserat;
+    color: #FFFFFFB2;
+}
+.colored{
+    color: #17C2EC;
+}
+.btnss{
+    margin-top: 40px;
+}
+.btn1{
+    width: 200px;
+    height: 69px;
+    border-radius: 20px;
+    background-color: #17C2EC;
+    font-size: 24px;
+    font-family: monserat;
+    color: #ffffff;
+}
+.btn2{
+    width: 200px;
+    height: 69px;
+    margin-left: 20px;
+    border-radius: 20px;
+    background-color: #C4C4C41A;
+    border: none;
+    font-size: 24px;
+    font-family: monserat;
+    color: #ffffff;
+}
+.group22{
+    width: 600px;
+    height: 600px;
+}
+
+.group20{
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.unss{
+    width: 400px;
+    height: 600px;
+    margin-left: 50px;
+    padding-top: px;
+    
+}
+.group17{
+    width: 100px;
+    height: 100px;
+    margin-top: 260px;
+    position: absolute;
+    
+}
+.group18{
+    width: 100px;
+    height: 100px;
+    margin-left: 400px;
+    margin-top: 260px;
+    position: absolute;
+    
+}
+.group21{
+    width: 370px;
+    height: 100px;
+    margin-top: 550px;
+    border-radius: 20px;
+    display: flex;
+    position: absolute;
+    background-color: #C4C4C433;
+    
+}
+.group19{
+   margin-left: 30px;
+   margin-top: 35px;
+   
+}
+.rectang{
+    width: 60px;
+    height: 60px;
+}
+.procent{
+   font-size: 20px;
+    color: #ffffff;
+   line-height: 5px;
+}
+.spec{
+    font-size: 20px;
+    font-family: monserat;
+    color: #17C2EC;
+    line-height: 5px;
+    
+}
+.scedul{
+    
+    font-size: 24px;
+    padding-top: 10px;
+    font-family: monserat;
+    color: #ffffff;
+}
+.group16{
+    margin-top: 30px;
+   padding-top: 20px;
+}
+
+
+.group15{
+    width: 1050px;
+    height: 130px;
+    border-radius: 20px;
+    background-color: #C4C4C40D;
+}
+.group14{
+margin-left: 30px;
+column-gap: 40px;
+}
+
+.group6{
+    width: 50px;
+    height: 50px;
+}
+.paragraf{
+    font-size: 24px;
+    font-family: monserat;
+    color: #ffffff;
+}
+.location{
+    font-size: 20px;
+    font-family: monserat;
+    color: #FFFFFF80;
+    line-height: 10px;
+}
+.places{
+    font-size: 20px;
+    font-family: monserat;
+    color: #ffffff;
+    line-height: 10px;
+}
+.group11{
+    column-gap: 20px;
+}
+.box1{
+    margin-top: 7px;
+    
+}
+.btns{
+    width: 142px;
+    height: 69px;
+    border-radius: 20px;
+    border: none;
+    margin-left: 30px;
+    margin-top: 30px;
+    font-size: 24px;
+    font-family: monserat;
+    color: #ffffff;
+    background-color: #17C2EC;
+}
+.group23{
+    height: 150px;
+    padding-top: 20px;
+    padding-top: 20px;
+    text-align: center;
+    column-gap: 20px;
+    background-color:#0101018d;
+}
+.pic1{
+    width: 250px;
+    height: 66px;
+}
+.pic2{
+    width: 250px;
+    height: 117px;
+}
+.pic3{
+    width: 250px;
+    height: 81px;
+}
+.pic4{
+    width: 250px;
+    height: 57px;
+}
+.group82{
+    background-image: url(pic/unsplash_SfDofjXtxHE.png);
+    background-repeat: none;
+    
+}
+.padd{
+    padding-top: 70px;
+}
+.rectange-4{
+    width: 1170px;
+    height: 340px;
+    margin-left: 20px;
+    border-radius: 20px;
+    background-color: #C4C4C41A;
+}
+.rectange5{
+    height: 100px;
+    background-color: #C4C4C40D;
+}
+.rec5{
+    padding-left: 90px;
+    padding-top: 30px;
+    font-size: 24px;
+    font-family: monserat;
+    color: #ffffff;
+}
+.inp1{
+    width: 400px;
+    height: 69px;
+    border-radius: 20px;
+    background-color: #C4C4C41A;
+    border: 2px solid #17C2EC;
+    
+}
+.inp3{
+    width: 400px;
+    height: 69px;
+    border-radius: 20px;
+    margin-left: 20px;
+    background-color: #C4C4C426;
+    border: 2px solid #C4C4C426 ;
+   
+    
+}
+.inp1::-webkit-input-placeholder{
+    font-size: 24px;
+    padding-left: 20px;
+    font-family: monserat;
+    color: #ffffff;
+}
+.inp3::-webkit-input-placeholder{
+    font-size: 24px;
+    padding-left: 20px;
+    font-family: monserat;
+    
+}
+
+.boot{
+    width: 170px;
+    height: 69px;
+    border-radius: 20px;
+    font-size: 24px;
+    font-family: monserat;
+    color: #17C2EC;
+    border: 2px solid #17C2EC;
+    background-color: #C4C4C41A;
+}
+.d-flex{
+    margin-top: 35px;
+    justify-content: center;
+    column-gap: 20px;
+}
+.rectange6{
+    width: 1010px;
+    margin-left: 80px;
+    margin-top: 35px;
+    height: 70px;
+    padding-top: 20px;
+    border-radius: 20px;
+    background-color: #C4C4C40D;
+    text-align: center;
+}
+.cov19{
+    font-size: 24px;
+    font-family: monserat;
+    color: #17C2EC;
+}
+.linkhere{
+    
+    color: #17C2EC;
+}
+.vaccinations{
+    margin-top: 62px;
+    background-color: #0B153C;
+}
+.group35{
+    margin-top: 30px;
+    margin-left: 20px;
+    column-gap: 230px;
+    display: flex;
+
+}
+.getvac{
+    width: 400px;
+    font-size: 40px;
+    font-family: monserat;
+    color: #ffffff;
+}
+.lorem{
+    width: 540px;
+    font-size: 20px;
+    font-family: monserat;
+    color: #FFFFFF80;
+}
+.mixrow{
+margin-left: 20px;
+margin-top: 30px;
+
+}
+.rectange15{
+    width: 440px;
+    height: 490px;
+    padding-top: 30px;
+    border-radius: 50px 150px 50px 50px;
+    background-color: #C4C4C433;
+}
+.group31{
+    width: 80px;
+    height: 80px;
+    border-radius: 30px;
+    margin-left: 40px;
+    padding-left: 4px;
+    padding-top: 5px;
+    background-color: #C4C4C41A;
+}
+.immunsist{
+    width: 280px;
+    margin-left: 40px;
+    margin-top: 40px;
+    font-size: 23px;
+    font-family: monserat;
+    color: #17C2EC;
+}
+.ipsum{
+    width: 340px;
+    margin-top: 30px;
+    margin-left: 40px;
+    font-size: 17px;
+    font-family: monserat;
+    color: #ffffff;
+}
+.anylink{
+    font-size: 20px;
+    text-decoration: none;
+    margin-left: 40px;
+    font-family: monserat;
+    color: #17C2EC;
+}
+.box2{
+    width: 320px;
+    height: 350px;
+    margin-top: 140px;
+    margin-left: 80px;
+    border-radius: 50px;
+    border: 2px solid #FFFFFF80;
+}
+.box3{
+    width: 320px;
+    height: 350px;
+    margin-top: 140px;
+    margin-left: 40px;
+    border-radius: 50px;
+    border: 2px solid #FFFFFF80 ;
+}
+.shield1{
+   width: 70px;
+   height: 70px;
+   margin-top:40px;
+   margin-left: 20px;
+}
+.viruscov{
+    width: 250px;
+    margin-left: 20px;
+    margin-top: 20px;
+   font-size:23.95px; 
+   font-family: monserat;
+   color: #ffffff;
+}
+.hreflink{
+    font-size: 15px;
+    margin-left: 20px;
+    text-decoration: none;
+    font-family: monserat;
+    color: #FFFFFF80;
+}
+.arright{
+    margin-top: 50px;
+}
+.arright1{
+    margin-top: 85px;
+}
+.getvaccination{
+    background-image: url(pic/unsplash_Y4MKctPwIrw.png);
+    background-repeat: none;
+    padding-top: 20px;
+    display: flex;
+    background-color: #33313173;
+}
+.group50{
+    width: 654px;
+    margin-left: 50px;
+    margin-top: 30px;
+    
+}
+.article{
+    width: 450px;
+    font-size: 40px;
+    font-family: monserat;
+}
+.forms{
+    margin-top: 40px;
+}
+.label{
+    font-size: 24px;
+    font-family: monserat;
+    color: #000000;
+}
+.inp4{
+    margin-top: 10px;
+    width: 650px;
+    height: 60px;
+    background-color: #0B153C26;
+    border-radius: 20px;
+    border: none;
+}
+.inp4::-webkit-input-placeholder{
+    padding-left: 30px;
+    font-size: 20px;
+    font-family: monserat;
+}
+.group49{
+    margin-top: 30px;
+}
+.mobnumb{
+    font-size: 24px;
+    font-family: monserat;
+}
+.reminder{
+    font-size: 20px;
+    font-family: monserat;
+    color: #00000080;
+}
+.geo{
+    width: 400px;
+    height: 50px;
+    border-radius: 20px;
+    background-color: #0000001A;
+}
+.separator{
+    width: 40px;
+    height: 10px;
+    border: 2px solid red;
+    rotate: 90grad;
+}
+
+.btn5{
+    width: 214px;
+    height: 50px;
+    margin-left: 30px;
+    border-radius: 20px;
+    background-color: #17C2EC;
+    border: none;
+    font-size: 20px;
+    font-family: monserat;
+    color: #ffffff;
+}
+.submmit{
+    width: 650px;
+    height: 50px;
+    margin-top: 40px;
+    border-radius: 20px;
+    border: none;
+    background-color: #17C2EC;
+    font-size: 20px;
+    font-family: monserat;
+    color: #ffffff;
+}
+.group51{
+    display: flex;
+    justify-content: center;
+    column-gap: 40px;
+    margin-top: 40px;
+}
+.register{
+    font-size: 20px;
+    font-family: monserat;
+    color: #00000080;
+}
+.flag{
+    width: 200px;
+}
+.statuss{
+    font-size: 20px;
+    text-decoration: none;
+    font-family: monserat;
+    color: #17C2EC;
+}
+.inp5{
+    width: 400px;
+    height: 50px;
+    border-radius: 20px;
+    background-color: #0B153C26;
+    border: none;
+    position: relative;
+}
+.inp5::-webkit-input-placeholder{
+    font-size: 24px;
+    padding-left: 120px;
+    font-family: monserat;
+    color: #00000040;
+}
+.rectange9{
+    width: 360px;
+    height: 500px;
+    margin-left: 100px;
+    margin-top: 80px;
+    padding-top: 20px;
+    border-radius: 20px;
+    background-color: #0B153C;
+}
+.spread{
+    position: absolute;
+    margin-top: 50px;
+    margin-left: 70px;
+}
+.nigeria{
+   width: 30px;
+   height: 30px;
+}
+
+.group47{
+    position: absolute;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+.linee{
+    width: 40px;
+    margin-left: 10px;
+    padding-bottom: 5px;
+    border: 1px solid #0000001A;
+}
+.cov19vac{
+    width: 210px;
+    font-size: 24px;
+    margin-left: 70px;
+    text-align: center;
+    font-family: monserat;
+    color: #ffffff;
+}
+.dose{
+    height: 392px;
+}
+.btn6{
+    width: 200px;
+    height: 50px;
+    position: absolute;
+    margin-top: 300px;
+    border-radius: 10px;
+    margin-left: 60px;
+    background-color: #C4C4C440;
+    border: none;
+    font-size: 20px;
+    font-family: monserat;
+    color: #ffffff;
+}
+.symptoms{
+background-image: url(pic/unsplash_SfDofjXtxHE.png);
+background-repeat: none;
+}
+.group52{
+    text-align: center;
+    padding-top: 60px;
+}
+.covprevent{
+    font-size: 24px;
+    font-family: monserat;
+    color: #ffffff;
+}
+.covsimpt{
+    font-size: 48px;
+    font-family: monserat;
+    color: #ffffff;
+}
+.coloredone{
+    color: #17C2EC;
+}
+.elitcov{
+    width: 950px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    font-size: 24px;
+    font-family: monserat;
+    color: #FFFFFF80;
+    
+}
+.group48{
+    width: 200px;
+    height: 50px;
+    border-radius: 10px;
+    background-color: red;
+   color: white;
+   margin-left: 50px;
+   position: relative;
+   
+}
+.cnvir{
+    width: 80px;
+    height: 100px;
+    position: absolute;
+   
+  
+   
+   
+}
